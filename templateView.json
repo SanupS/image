@@ -1,0 +1,35 @@
+[
+    {
+      "view": "Tab",
+      "target": {
+        "field": "template",
+        "order": 1
+      },
+      "querryOps": {
+        "groupby": "dimension"
+      },
+      "template": [
+        {
+          "name": "Environmental",
+          "key": "environmental",
+          "templateView": {
+            "view": "multiTable",
+            "coloums": [
+              {
+                "name": "Topics",
+                "key": "topic"
+              },
+              {
+                "name": "Sub Topics",
+                "key": "subTopic"
+              },
+              {
+                "name": "Sub-sub Topics",
+                "key": "subSubTopic"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
